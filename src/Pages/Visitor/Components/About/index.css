@@ -1,0 +1,36 @@
+.About{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AboutLogo{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutText{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutText>div{
+    width: 40vw;
+    color: white;
+}
+
+.AboutText>div>h1{
+    width: 40vw;
+    font-size: 3vw;
+}
+.AboutText>div>h2{
+    width: 40vw;
+}
+.AboutText>div>p{
+    width: 30vw;
+}

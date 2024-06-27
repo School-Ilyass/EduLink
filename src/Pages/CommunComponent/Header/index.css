@@ -1,0 +1,75 @@
+.Header{
+    width: 80vw;
+    height: 5vh;
+    margin: auto;
+    border-radius: 50px;
+    background-color: rgba(24, 24, 24, 0.76);
+    padding: 1vw;
+    backdrop-filter: blur(15px);
+    margin-top: 3vh;
+    display: flex;
+}
+.Logo{
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Links{
+    width: 60vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Links > a{
+    width: 7vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+.Links > a:hover{
+    width: 7vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: underline;
+}
+.Actions{
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Actions > a{
+    width: 7vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.Actions > a:hover{
+    width: 7vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(24, 24, 24, 0.76);
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    transition: all 0.3s ease;
+}

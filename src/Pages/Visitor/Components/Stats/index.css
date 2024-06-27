@@ -1,0 +1,64 @@
+.Stats{
+    width: 100vw;
+    height: 100vh;
+}
+.StatsTitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    height: 20vh;
+}
+.StatsText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 60vh;
+}
+.StatsText > div {
+    padding: 2vw;
+    text-align: center;
+    width: 15vw;
+    height: 50vh;
+    margin-top: 30vh;
+}
+.StatsText > div > h2 {
+    font-size: 3vw;
+}
+.StatsText > div > p {
+    font-size: 1vw;
+}
+.StatsBTN{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.StatsBTN > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #00ffff;
+    padding: 1vw;
+    border: 1px #00ffff solid;
+    border-radius:15px;
+    text-decoration: none;
+    width: 10vw;
+    transition: all 0.3s ease;
+}
+
+
+.StatsBTN > a:hover{
+    color: white;
+    padding: 1vw;
+    border: 1px #00ffff98 solid;
+    border-radius:15px;
+    background-color: #00ffff98 ;
+    text-decoration: none;
+    width: 10vw;
+
+    transition: all 0.3s ease;
+}
