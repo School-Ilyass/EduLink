@@ -7,7 +7,7 @@ function Home(){
         <div className="Home">
             <div>
                 <img src={Logo} />
-                <a href="#">Get Started</a>
+                <div><a href="#">Get Started</a></div>
             </div>
             
             
