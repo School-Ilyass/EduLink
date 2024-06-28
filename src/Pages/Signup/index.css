@@ -56,7 +56,7 @@
 
 }
 .AuthRightCred>input{
-    width: 10vw;
+    width: 15vw!important;
     height: 2vh;
     background-color: rgb(32, 32, 32);
     border-radius: 5px;

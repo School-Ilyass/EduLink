@@ -23,6 +23,9 @@ code {
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
 
 /* Scroll Bar */
 

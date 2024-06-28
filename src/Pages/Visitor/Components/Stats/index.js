@@ -7,7 +7,7 @@ function Stats(){
         "Editors" : 3 
     }
     return(
-        <div className="Stats">
+        <div id="Stats" className="Stats" >
             <div className="StatsTitle">
                 <h1> Statistics </h1>
             </div>

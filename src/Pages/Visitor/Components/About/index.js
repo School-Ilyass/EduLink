@@ -3,7 +3,7 @@ import medium from "../../../../Assets/Logo/Medium.svg"
 
 function About(){
     return(
-        <div className="About">
+        <div id="About" className="About">
             <div className="AboutLogo">
                 <img src={medium}/>
             </div>

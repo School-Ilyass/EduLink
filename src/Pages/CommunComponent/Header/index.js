@@ -22,13 +22,13 @@ function Header(props){
         <div className="Header">
             <div className="Logo"><img src={Minimal} /></div>
             <div className="Links">
-                <a href='#'>About</a>
-                <a href='#'>Features</a>
-                <a href='#'>Topics</a>
-                <a href='#'>Context</a>
+                <a href='#Home'>Home</a>
+                <a href='#About'>About</a>
+                <a href='#Stats'>Stats</a>
+                <a href='#'>Link</a>
             </div>
             <div className="Actions">
-                <a href="#">Login</a>
+                <a href="/Authentification">Login</a>
             </div>
         </div>
     )

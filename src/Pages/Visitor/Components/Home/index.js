@@ -4,7 +4,7 @@ import Logo from '../../../../Assets/Logo/Big.svg'
 
 function Home(){
     return(
-        <div className="Home">
+        <div id="Home" className="Home">
             <div>
                 <img src={Logo} />
                 <div><a href="#">Get Started</a></div>

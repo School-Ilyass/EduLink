@@ -115,9 +115,38 @@
     color: #00ffff;
     font-size: 0.8vw;
 }
-
-
-
+.AuthRightSignup{
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AuthRightSignup>a{
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.AuthRightSignup>a:hover{
+    width: 15vw;
+    height: 5vh;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(37, 37, 37);
+}
 
 
 

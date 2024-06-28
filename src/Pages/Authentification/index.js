@@ -23,6 +23,11 @@ function Authentification(){
                     <div className="AuthRightSubmit">
                         <input type="submit" value="Login"></input>
                     </div>
+
+
+                    <div className="AuthRightSignup">
+                        <a href="/Signup">Signup</a>
+                    </div>
                     
                 </div>
             </div>
