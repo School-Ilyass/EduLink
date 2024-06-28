@@ -1,0 +1,76 @@
+.Chat{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ChatContainer{
+    background-color: rgba(20, 20, 20, 0.479);
+    width: 80vw;
+    height: 80vh;
+    border-radius: 15px;
+}
+.ChatContainer > div{
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ChatContainer > div > h1{
+    color: white;
+    text-align: center;
+}
+.ChatContainerHeader{
+    width: 80vw;
+    height: 10vh;
+    background-color: rgba(20, 20, 20, 0.363);
+    
+}
+.ChatContainerHeader>div{
+    width: 8vh;
+    height: 8vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    transition: all 0.3s ease;
+    
+}
+.ChatContainerHeader>div:hover{
+    /* border: 1px solid #00ffff; */
+    transition: all 0.3s ease;
+    background-color: #00ffff;
+    cursor: pointer;
+    
+}
+.ChatContainerBody{
+    width: 80vw!important;
+    height: 60vh!important;
+    border-radius: 15px;
+}
+.ChatContainerBodyMessages{
+    width: 80vw!important;
+    height: 70vh!important;
+}
+.ChatContainerBodyMessagesInput{
+    width: 80vw!important;
+    height: 10vh!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ChatContainerBodyMessagesInput > input{
+    width: 77vw!important;
+    height: 5vh!important;
+    background-color: #00000000;
+    border: 1px solid #00ffff;
+}
+.ChatContainerBodyMessagesInput > button{
+    width: 5vh!important;
+    height: 5vh!important;
+    background-color: #00000000;
+    border: 1px solid #00ffff;
+    color:#00ffff;
+}

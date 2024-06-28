@@ -1,0 +1,128 @@
+.AuthBody{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AuthBody>div{
+    width: 40vw;
+    height: 60vh;
+}
+.AuthLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AuthRight{
+    border-left: 1px solid rgb(145, 145, 145);
+}
+.AuthRight>*{
+    translate: 0 5vh;
+}
+.AuthRight>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AuthRightTitle{
+    color: white;
+    text-align:center;
+    width: 40vw;
+    height: 10vh;
+}
+.AuthRightName{
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AuthRightName>input{
+    width: 15vw;
+    height: 2vh;
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    border: 1px solid rgb(145, 145, 145);
+    margin: 1vw;
+    padding: 1vw;
+}
+.AuthRightCred{
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.AuthRightCred>input{
+    width: 10vw;
+    height: 2vh;
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    border: 1px solid rgb(145, 145, 145);
+    margin: 1vw;
+    padding: 1vw;
+}
+.AuthRightLast{
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AuthRightLast>input{
+    width: 15vw;
+    height: 2vh;
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    border: 1px solid rgb(145, 145, 145);
+    margin: 1vw;
+    padding: 1vw;
+}
+.AuthRightSubmit{
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AuthRightSubmit>input{
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    border: 1px solid #00ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00ffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.AuthRightSubmit>input:hover{
+    width: 15vw;
+    height: 5vh;
+    background-color: #00ffff91;
+    border-radius: 5px;
+    border: 1px solid #00ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.AuthRightLostPWD>a{
+    color: #00ffff;
+    font-size: 0.8vw;
+}
+
+
+
+
+
+
+.AuthFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

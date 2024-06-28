@@ -1,0 +1,45 @@
+.Journal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.JournalContainer{
+    
+    width: 70vw;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.JournalContainer > div{
+    display: flex;
+    background-color: rgb(59, 70, 122);
+    width: 70vw;
+    height: 30vh;
+    border-radius: 15px;
+}
+
+.Journal{
+    margin-bottom: 30vh;
+}
+.Journal>div{
+    /* width: 10vw; */
+    padding: 3vw;
+}
+
+.Journal>div>a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+    border-radius: 10px;
+    background-color: rgb(133, 91, 37);
+    margin-top: 1vh;
+}
+.Journal>img{
+    width: 15vw;
+    /* translate: -10vw; */
+}

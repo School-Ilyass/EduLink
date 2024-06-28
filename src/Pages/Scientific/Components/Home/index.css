@@ -1,0 +1,38 @@
+.Home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home>div>*{
+    display: block;
+    
+    text-align: center;
+}
+.Home>div>div{
+    width: 40vw;
+    margin-top: 10vh;
+}
+.Home>div>img{
+    width: 40vw;
+}
+.Home>div>div>input{
+    color: #00ffff;
+    padding: 1vw;
+    border: 1px #00ffff solid;
+    border-radius:15px;
+    text-decoration: none;
+    width: 10vw;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0);
+    width: 20vw;
+}
+.Home>div>div>input:hover{
+    padding: 1vw;
+    border: 1px #00ffff98 solid;
+    border-radius:15px;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
