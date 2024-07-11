@@ -3,11 +3,13 @@
     height: 5vh;
     margin: auto;
     border-radius: 50px;
-    background-color: rgba(24, 24, 24, 0.76);
+    /* background-color: rgba(24, 24, 24, 0.5); */
+    background-color: rgba(0, 0, 0, 0.295);
     padding: 1vw;
     backdrop-filter: blur(15px);
     margin-top: 3vh;
     display: flex;
+    animation-duration: 0.3s;
 }
 .Logo{
     width: 5vw;
@@ -47,6 +49,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Actions>p{
+    color: white;
 }
 .Actions > a{
     width: 7vw;

@@ -1,0 +1,30 @@
+.Profile{
+    /* display: flex; */
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.Profile>div{
+    width: 90vw;
+    height: 40vh;
+}
+.ProfileLeft{
+    font-size: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.ProfileRight{
+
+    color: white;
+}
+.ProfileRight>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

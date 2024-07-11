@@ -1,0 +1,77 @@
+.AddArticle{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AddArticleContainer{
+    width: 80vw;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    background-color: rgba(17, 17, 17, 0.418);
+    border-radius: 15px;
+    /* border: 1px solid #00ffff; */
+    transition: all 0.3s ease;
+}
+.AddArticleContainerBody {
+    text-align: center;
+}
+.AddArticleContainerBody > div{
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.AddArticleContainerBody > div > input{
+    width: 20vw;
+    padding: 0.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+    background-color: rgba(17, 17, 17, 0.418);
+    border: 1px solid #000000;
+    color: white;
+    border-radius: 15px;
+}
+.AddArticleContainerBody > div > button{
+    width: 20vw;
+    padding: 0.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+    background-color: rgba(17, 17, 17, 0.418);
+    border: 1px solid #000000;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.AddArticleContainerBody > div > button:hover{
+    width: 20vw;
+    padding: 0.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+    background-color: rgba(90, 90, 90, 0.418);
+    border: 1px solid #000000;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.AddArticleContainerBody > div > select{
+    width: 20vw;
+    padding: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+    background-color: rgba(17, 17, 17, 0.418);
+    border: 1px solid #000000;
+    color: white;
+}

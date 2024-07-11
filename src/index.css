@@ -6,8 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
     background-color: rgb(32, 32, 32);
-
   overflow-x: hidden;
+  /* background: rgb(19,39,91);
+  background: linear-gradient(0deg, rgb(19, 65, 91) 0%, rgba(45,45,45,1) 38%, rgba(28,28,28,1) 100%); */
 }
 
 code {

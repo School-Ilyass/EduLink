@@ -7,7 +7,7 @@ function Home(){
         <div id="Home" className="Home">
             <div>
                 <img src={Logo} />
-                <div><a href="#">Get Started</a></div>
+                <div><a href="/Signup">Get Started</a></div>
             </div>
             
             

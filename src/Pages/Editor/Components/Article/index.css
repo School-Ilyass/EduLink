@@ -1,0 +1,104 @@
+.Article{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ArticleContainer{
+    
+    width: 80vw;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    background-color: rgba(17, 17, 17, 0.418);
+    border-radius: 15px;
+}
+.ArticleContainerBody{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.ShowMyArticles{
+    display: flex;
+    overflow-y:auto;
+}
+.ArticleContainerBody>div{
+    
+    width: 40vw;
+    height: 60vh;
+}
+.ShowMyArticles{
+    text-align: left;
+}
+.ShowMyArticles>div{
+    margin: 1vw;
+}
+.ShowMyArticles>div>img{
+    width: 10vw;
+    cursor: pointer;
+}
+
+.ShowMyArticlesInfos{
+    text-align: center; 
+    overflow-y: auto;
+    border-left: 1px solid rgb(126, 126, 126);
+}
+
+.ArticleInfoTitle{
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 600;
+    width: 40vw;
+    height: 10vh;
+}
+
+.ArticleInfoRatings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40vw;
+    height: 20vh;
+}
+.ArticleInfoRatings>div{
+    padding: 5vw;
+}
+
+.ViewArticle{
+    padding: 1vw;
+    background-color: rgb(145, 145, 0);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.ApprouveArticle{
+    padding: 1vw;
+    background-color: rgb(6, 90, 6);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.DeleteArticle{
+    padding: 1vw;
+    background-color: rgb(105, 10, 10);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.ViewArticle:hover{
+    padding: 1vw;
+    background-color: rgb(228, 228, 0);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.ApprouveArticle:hover{
+    padding: 1vw;
+    background-color: rgb(0, 182, 0);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.DeleteArticle:hover{
+    padding: 1vw;
+    background-color: rgb(194, 0, 0);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}

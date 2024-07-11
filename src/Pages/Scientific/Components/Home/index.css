@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-duration: 0.3s;
 }
 .Home>div>*{
     display: block;
@@ -35,4 +36,41 @@
     text-decoration: none;
 
     transition: all 0.3s ease;
+}
+.SearchResult{
+    background-color: rgba(9, 61, 77, 0.7);
+    width: 70vw;
+    height: 70vh;
+    border-radius: 15px;
+    box-shadow: 15px 15px 40px rgb(0, 0, 0);
+    color: white;
+    display: none;
+    margin: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}   
+
+.EduLinkArticles{
+    /* background-color: rgba(66, 9, 77, 0.7); */
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.EduLinkArticles>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.EduLinkArticles>div>img{
+    width: 5vw;
+}
+.EduLinkArticles>div>*{
+    width: 20vw;
+}
+.EduLinkArticles>div>a{
+    color: white;
+    text-decoration: none;
 }

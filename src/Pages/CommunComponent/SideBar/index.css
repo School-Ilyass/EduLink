@@ -3,7 +3,7 @@
     height: 50vh;
     margin: auto;
     border-radius: 50px;
-    background-color: rgba(24, 24, 24, 0.76);
+    background-color: rgba(24, 24, 24, 0.5);
     /* padding: 1vw; */
     backdrop-filter: blur(15px);
     margin-top: 3vh;

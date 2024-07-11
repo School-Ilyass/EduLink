@@ -1,0 +1,42 @@
+.footer{
+    background-color: transparent;
+    width: 100vw;
+    height: 50vh;
+}
+.Footer>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 0vh;
+    width: 80vw; */
+    margin: auto;
+}
+.FooterContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FooterContainer>div{
+    /* background-color: aquamarine; */
+    height: 40vh;
+    width: 25vw;
+}
+.FooterContainer>div>h1{
+    color: white;
+    text-align: center;
+}
+.FooterContainer>div>a{
+    display: block;
+    color: white;
+    height: 7vh;
+    margin-left: 5vw;
+}
+.FooterBottom{
+    /* background-color: rgb(255, 127, 234); */
+    height: 10vh;
+    width: 80vw;
+    color: white;
+}
+.Border{
+    border-left:1px solid white ;
+}

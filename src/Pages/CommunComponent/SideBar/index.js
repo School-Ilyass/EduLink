@@ -7,11 +7,15 @@ function SideBar(props){
                 <a href='#'><i class="fa-regular fa-comment"></i></a>
             </div>
             <div className="">
-                <a href='#'><i class="fa-solid fa-plus"></i></a>
+                <a href='/AddArticle'><i class="fa-solid fa-plus"></i></a>
             </div>
             <div className="">
-                <a href='#'><i class="fa-regular fa-circle-user"></i></a>
+                <a href='/Profile'><i class="fa-regular fa-circle-user"></i></a>
             </div>
+            <div className="">
+                <a href='/'><i class="fa-solid fa-door-open"></i></a>
+            </div>
+            
         </div>
     )
 

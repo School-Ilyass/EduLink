@@ -1,0 +1,32 @@
+.SideBar{
+    width: 5vw;
+    height: 50vh;
+    margin: auto;
+    border-radius: 50px;
+    background-color: rgba(24, 24, 24, 0.76);
+    /* padding: 1vw; */
+    backdrop-filter: blur(15px);
+    margin-top: 3vh;
+    /* display: flex; */
+    margin-left: 1vw;
+    translate: 0 20vh;
+    position: fixed;
+}
+.SideBar > div{
+    width: 5vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SideBar > div > a{
+    color: white ;
+    border: 0px #00ffff solid;
+    transition: all 0.3s ease;
+    font-size: 1.2vw;
+}
+
+.SideBar > div > a:hover{
+    color: #00ffff;
+    transition: all 0.3s ease;
+}
